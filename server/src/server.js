@@ -14,3 +14,7 @@ app.listen(PORT, () => {
 app.post("/analyze", (req, res) => {
   res.json({ message: "Analyze route working ✅" });
 });
+
+app.post("/analyze", (req, res) => {
+  res.json({ message: "Backend working ✅" });
+});
