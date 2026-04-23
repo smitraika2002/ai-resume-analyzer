@@ -1,6 +1,10 @@
 import dotenv from "dotenv";
 dotenv.config(); // 🔥 MUST BE FIRST LINE
 
+import cors from "cors";
+
+app.use(cors());
+
 import app from "./app.js";
 
 dotenv.config();
